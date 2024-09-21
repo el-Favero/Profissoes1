@@ -1,0 +1,73 @@
+
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  padding: 0;
+  background-image: linear-gradient(  to right,rgb(132, 172, 233), rgb(53, 74, 192) ,rgb(18, 19, 29));
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+} 
+.profissoes{
+  margin: 30px;
+  background-color: rgba(11, 194, 185, 0.63);
+  border: 10px outset rgb(0, 26, 255);
+  color: darkred; /* mudar a cor do texto */
+  border-radius: 50px; /* arredondar a borda */
+  padding: 10px; /* Espaço interno, a separação da borda do texto */
+  box-shadow: 0px 0px 20px 5px rgba(14, 13, 13, 0.788); /* coloca sombra  e pode desloca-lá e/ou desfoca-lá */
+  width: 20%;
+  text-align: center;
+}
+
+.profissoes1{
+  margin: 10px;
+  background-color: rgba(11, 194, 185, 0.63);
+  border: 10px outset rgb(0, 26, 255);
+  color: darkred; /* mudar a cor do texto */
+  border-radius: 50px; /* arredondar a borda */
+  padding: 10px; /* Espaço interno, a separação da borda do texto */
+  box-shadow: 0px 0px 20px 5px rgba(14, 13, 13, 0.788); /* coloca sombra  e pode desloca-lá e/ou desfoca-lá */
+  width: 85%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1{
+  background-color: rgb(194, 189, 207);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.programador img{
+  height: 200px;
+  width: 500px;
+  border-radius: 50px; /* aredondamento da borda*/
+}
+.osDois{
+  width: 45%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top:80px;
+}
+button{
+padding: 10px 20px; /* Adiciona padding interno para os botões */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    background-image: linear-gradient(  to right,rgb(132, 172, 233), rgb(53, 74, 192) ,rgb(18, 19, 29));
+
+}
+.footer {
+  display: flex;
+  justify-content: space-between; /* Coloca os botões nas extremidades */
+  width: 100%; /* Faz a div ocupar toda a largura da tela */
+  position: absolute; /* Faz a div flutuar na tela */
+  top: 20px; /* Adiciona espaço no topo */
+  
+}
