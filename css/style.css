@@ -40,7 +40,7 @@ body {
 }
 
 h1{
-  background-color: rgb(105, 107, 231);
+  background-color: rgb(129, 131, 224);
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -65,7 +65,7 @@ padding: 10px 20px; /* Adiciona padding interno para os botões */
 }
 .footer {
   display: flex;
-  justify-content: space-between; /* Coloca os botões nas extremidades */
+  justify-content: space-around; /* Coloca os botões nas extremidades */
   width: 100%; /* Faz a div ocupar toda a largura da tela */
   position: absolute; /* Faz a div flutuar na tela */
   top: 20px; /* Adiciona espaço no topo */
